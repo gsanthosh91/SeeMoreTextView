@@ -1,0 +1,3 @@
+include ':seemore'
+include ':app'
+rootProject.name = "SeeMoreTextView"
