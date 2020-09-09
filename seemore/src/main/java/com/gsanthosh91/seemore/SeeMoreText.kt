@@ -85,7 +85,7 @@ class SeeMoreText : AppCompatTextView {
     }
 
     override fun setText(text: CharSequence, type: BufferType) {
-        if (tag == null) {
+        if (tag == null || tag.toString().isEmpty()) {
             tag = text
         }
         mText = tag.toString()
